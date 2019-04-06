@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "scripts": {
+    "build:app": "lerna run build --scope={@smallcase/server,@smallcase/view}",
+    "start": "node build/index.js"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "name": "smallcase"
+}

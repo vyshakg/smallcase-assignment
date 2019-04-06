@@ -1,0 +1,10 @@
+.custom-emoji {
+  font-family: Segoe UI Emoji;
+  font-size: 1.5em;
+}
+.footer {
+  text-align: center;
+  background: #001529 !important;
+  color: white !important;
+  font-size: 14px !important;
+}
