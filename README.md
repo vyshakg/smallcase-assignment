@@ -1,6 +1,7 @@
 # Smallcase portfolio tracking assignment
 
 Deployed to Heroku Url : https://protected-tor-19659.herokuapp.com/
+
 Github repo : https://github.com/vyshakg/smallcase-assignment
 
 
