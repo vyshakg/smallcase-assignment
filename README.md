@@ -47,7 +47,7 @@ Output : (after updating the security)
 
 ![tradebuy](https://user-images.githubusercontent.com/17231224/55734708-ab013a00-5a3d-11e9-9892-5281ea00772a.png)
 
-Error handling for the invalid OwnerShip and quantity :
+## Error handling for the invalid OwnerShip and quantity :
 
 ### Inavalid Quantity : 
 
