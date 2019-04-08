@@ -6,7 +6,9 @@ import dataPopulateRoute from "./routes/populateData";
 import portfolioRoute from "./routes/portfolio";
 import tradeRoute from "./routes/trades";
 import securitiesRoute from "./routes/securities";
-
+import fs from "fs";
+import marked from "marked";
+import path from "path";
 dotenv.config();
 const PORT = process.env.PORT || 4000;
 
@@ -26,7 +28,14 @@ const PORT = process.env.PORT || 4000;
   app.use(securitiesRoute);
 
   app.get("/", function(req, res) {
-    res.send("Portfolio tracking api");
+    const pathdir = path.join(__dirname, "README.md");
+
+    fs.readFile(pathdir, "utf8", function(err, data) {
+      if (err) {
+        console.log(err);
+      }
+      res.send(marked(data.toString()));
+    });
   });
 
   app.listen(PORT, () => {
