@@ -1,5 +1,6 @@
-#! /bin/bash/env
+#!/bin/bash
 
+yarn build
 
 heroku container:push --app=protected-tor-19659 web
 

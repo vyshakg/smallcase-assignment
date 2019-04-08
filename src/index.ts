@@ -8,7 +8,6 @@ import tradeRoute from "./routes/trades";
 import securitiesRoute from "./routes/securities";
 
 dotenv.config();
-
 const PORT = process.env.PORT || 4000;
 
 (async () => {
@@ -25,6 +24,10 @@ const PORT = process.env.PORT || 4000;
   app.use(tradeRoute);
   app.use(portfolioRoute);
   app.use(securitiesRoute);
+
+  app.get("/", function(req, res) {
+    res.send("Portfolio tracking api");
+  });
 
   app.listen(PORT, () => {
     console.log(`server started at  http://localhost:${PORT}`);

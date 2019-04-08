@@ -8,6 +8,7 @@ COPY ./package.json .
 RUN npm install --silent --production
 
 COPY ./build .
+COPY ./.env .
 
 ENV NODE_ENV "production"
 
