@@ -19,16 +19,19 @@ What I have Used :
 - ` /api/security `   : POST : To add a new Security.
 </pre>
 
-### 1. Buy Trade
+### Ex. Buy Trade
 Input : 
+<pre>
 - tickerSymbol
 - price
 - quantity
-
+</pre>
 Output : (after updating the security)
+<pre>
 - tickerSymbol
 - averageBuyPrice
 - shares
+</pre>
 
 Code screeshot:
 ![carbon](https://user-images.githubusercontent.com/17231224/55733691-e7cc3180-5a3b-11e9-9bef-0cce7015660b.png)
