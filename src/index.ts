@@ -1,5 +1,4 @@
 import bodyParser from "body-parser";
-import cors from "cors";
 import dotenv from "dotenv";
 import express from "express";
 import { createDatabaseConn } from "./createDatabaseConn";
@@ -26,15 +25,6 @@ const PORT = process.env.PORT || 4000;
   app.use(tradeRoute);
   app.use(portfolioRoute);
   app.use(securitiesRoute);
-
-  const CORSconfig = {
-    credentials: true,
-    origin:
-      process.env.NODE_ENV === "production"
-        ? "same-origin"
-        : process.env.FRONTEND_HOST
-  };
-  app.use(cors(CORSconfig));
 
   app.listen(PORT, () => {
     console.log(`server started at  http://localhost:${PORT}`);
