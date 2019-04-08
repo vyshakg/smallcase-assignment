@@ -1,5 +1,5 @@
 import { Model, model, Schema } from "mongoose";
-import { IPortfolio } from "./IPortfolio";
+import { IPortfolio } from "../Interface/IPortfolio";
 
 const PortfolioSchema: Schema = new Schema({
   tickerSymbol: {
