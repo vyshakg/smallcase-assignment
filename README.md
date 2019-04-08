@@ -1,12 +1,18 @@
 # Smallcase portfolio tracking assignment
 
+Deployed to Heroku Url : https://protected-tor-19659.herokuapp.com/
+
+
 What I have Used : 
 <pre>
 1.Typescript
 2.Express
 3.Joi - for validation
 4.body-parser - to parse the incoming request
-5.mongosee - ODM  
+5.mongodb
+6.mongosee - ODM  
+7.Docker
+8.Heroku - deployment
 </pre>
 
 ### Api End-points :
