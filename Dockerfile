@@ -2,7 +2,7 @@ FROM node:10.15.1-jessie-slim
 
 WORKDIR /smallcase
 
-COPY ./packages/server/package.json .
+COPY ./package.json .
 
 
 RUN npm install --silent --production

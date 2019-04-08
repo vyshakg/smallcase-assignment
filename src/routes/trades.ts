@@ -66,6 +66,7 @@ tradeRoute.post("/api/trade/sell", async (req, res) => {
     );
     return res.status(200).json({
       tickerSymbol: tickerSymbol.toUpperCase(),
+      averageBuyPrice: security.averageBuyPrice,
       shares: security.shares - quantity
     });
   } catch (e) {
