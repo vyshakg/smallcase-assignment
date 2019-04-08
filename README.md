@@ -39,19 +39,27 @@ Output : (after updating the security)
 - shares
 </pre>
 
+---
+
 ### Code screeshot:
 
 ![carbon](https://user-images.githubusercontent.com/17231224/55733691-e7cc3180-5a3b-11e9-9bef-0cce7015660b.png)
 
+---
+
 ### Output screenshot :
 
 ![tradebuy](https://user-images.githubusercontent.com/17231224/55734708-ab013a00-5a3d-11e9-9892-5281ea00772a.png)
+
+---
 
 ## Error handling for the invalid OwnerShip and quantity :
 
 ### Inavalid Quantity : 
 
 ![errorhandling](https://user-images.githubusercontent.com/17231224/55734893-ffa4b500-5a3d-11e9-8bac-3678908bc74a.png) 
+
+---
 
 ### Invalid Ownership :
 
